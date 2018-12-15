@@ -1,0 +1,36 @@
+
+<view class="work-info-container"  >
+
+
+  <view class="section-item-box arrow-section">
+      <view class="section-title">我的订单</view>
+      
+  </view>
+  <view class="line"> </view>
+  <view class="section-item-box arrow-section">
+      <view class="section-title">我的订单</view>
+  </view>
+
+
+
+
+
+
+
+
+  <!-- <view s-for="item, index in items" class="group-bd">
+        <view class="item border-bottom {{item.open ? '' : 'item-close'}}" 
+              bind:tap="toggleClick" 
+              data-index="{{index}}" 
+              data-id="{{item.id}}">
+            <text class="item-desc">{{item.name}}</text>
+        </view>
+        <view s-if="item.open">
+            <view class="sub-item border-bottom" s-for="subItem in item.list" bind:tap="oneItemClick" data-id="{{subItem.id}}" data-path="{{subItem.path}}">
+                <text class="sub-item-desc">{{subItem.subName}}</text>
+                <image class="item-logo sub-item-goto" src="../../images/right_arrow.png"></image>
+            </view>
+        </view>
+    </view> -->
+    
+</view>
