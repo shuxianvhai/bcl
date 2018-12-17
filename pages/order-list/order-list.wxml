@@ -1,0 +1,17 @@
+<!--pages/order-list/order-list.js.wxml-->
+<view class="order-container">
+   <view class="filter-tab">
+      <text class="'filter-text' {{item.name == curTabName ? 'active' : ''}}" bindtap='switchTab' data-name="{{item.name}}" wx:for="{{tabList}}" data-status="{{item.status}}" wx:key="*this">{{item.text}}</text>
+   </view>
+   <view class="order-list">
+      <view class="order-item" wx:for="{{orderlistData}}" wx:key="*this">
+          <view class="order-title">
+             <text class="service-catg">{{item.serviceCategoryName}}</text>
+             <text class="order-status {{item.orderStatus.key == 300 ? 'unpay' : ''}}">{{item.orderStatus.value}}</text>
+          </view>
+          <view class="order-address">北京市海淀区龙锦苑东二区</view>
+          <view class="order-time"><image class="time-icon" src="{{timeIcon}}"></image>{{item.createTime}}</view>
+      </view>
+   </view>
+</view>
+

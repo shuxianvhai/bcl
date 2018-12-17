@@ -1,0 +1,25 @@
+<!--pages/account/account.wxml-->
+<view class="account-wrapper">
+    <view class="income-wrapper">
+        <view class="income">总收入（元）</view>
+        <view class="par-price">{{totalIncome}}<text class="unit">元</text></view>
+        <view class="desc" wx:if="totalIncome > 0">已经存入您的账户</view>
+    </view>
+    <view class="account-record">
+        <block wx:if="{{recordList.length > 0}}">
+          <view class="record-title">账户记录</view>
+          <view class="record-list">
+            <view class="record-item" wx:for="{{recordList}}" wx:key="*this">
+                <view class="amount {{item.amount > 0 ? 'plus' : ''}}">{{item.amount}}</view>
+                <view class="record-info">
+                  <text class="record-type">{{item.type}}</text>
+                  <text class="record-time">{{item.datetime}}</text>
+                </view>
+            </view>
+          </view>
+        </block>
+        <block wx:else>
+          <view class="noInfo">暂无记录</view>
+        </block>
+    </view>
+</view>

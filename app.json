@@ -1,12 +1,25 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/login/login",
+    "pages/account/account",
+    "pages/coupon/coupon",
+    "pages/personal-center/personal-center",
+    "pages/order-list/order-list",
+    "pages/logs/logs",
+    "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f2f2f2"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
 }

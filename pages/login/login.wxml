@@ -1,0 +1,11 @@
+<!--登录-->
+<view class="login-wrapper">
+    <button
+  type="default" class="wechat-login"
+  bindtap="primary"
+>
+        <image class="wx_icon" src="{{wxIcon}}"></image>
+  微信用户一键登录
+    </button>
+    <view class="tel-login">手机号验证登录</view>
+</view>

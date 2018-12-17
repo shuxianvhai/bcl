@@ -1,0 +1,88 @@
+/* pages/account/account.wxss */
+page {
+  background-color: #f2f2f2;
+}
+
+.income-wrapper {
+  background-color: #fff;
+  padding: 32rpx 32rpx 40rpx;
+}
+
+.income {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.par-price {
+  font-size: 72rpx;
+  color: #F08519;
+  margin-bottom: 20rpx;
+}
+
+.unit {
+  font-size: 28rpx;
+  margin-left: 2rpx;
+}
+
+.desc {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.record-title {
+  color: #666;
+  font-size: 28rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  padding-left: 32rpx;
+}
+
+.record-list {
+  background-color: #fff;
+}
+
+.record-item {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.record-info {
+  overflow: hidden;
+  zoom: 1;
+  padding: 32rpx;
+  height: 136rpx;
+  box-sizing: border-box;
+}
+
+.record-type {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.record-time {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.amount {
+  float: right;
+  height: 136rpx;
+  line-height: 136rpx;
+  margin-right: 32rpx;
+}
+
+.plus {
+  color: #F08519;
+}
+
+.noInfo {
+  height: 68rpx;
+  line-height: 68rpx;
+  color: #999;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+
+

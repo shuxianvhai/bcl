@@ -1,0 +1,26 @@
+
+<view class="personal-center-container"  >
+  <view class="userinfo-container">
+      <view class="userinfo-avatar">
+         <image
+          class="avatar-src"
+          src="{{avatarSrc}}"
+        ></image>
+      </view>
+      <view class="userinfo-text">
+         <text class="userinfo-nickname">一糖天下堂天下</text>
+         <text class="userinfo-mobile">18701678034</text>
+      </view>
+  </view>
+  <view wx:for="{{myInfo}}" wx:key="*this" class="section-list">
+     <block wx:for="{{item.list}}" wx:key="*this">
+        <view class="section-item-box arrow-section" bindtap="openPage" data-url="{{item.url}}">
+          <image
+              class="section-icon"
+              src="{{item.icon}}"
+            ></image>
+          <view class="section-title">{{item.text}}</view>
+        </view>
+    </block>
+  </view>
+</view>
