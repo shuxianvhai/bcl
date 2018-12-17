@@ -1,0 +1,22 @@
+/* pages/login/login.wxss */
+button.wechat-login {
+  background-color: #1AAD17;
+  height: 100rpx;
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: 34rpx;
+  line-height: 100rpx;
+  margin: 180rpx 32rpx 40rpx;
+}
+
+.wx_icon {
+  width: 56rpx;
+  height: 56rpx;
+  vertical-align: middle;
+}
+
+.tel-login {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+}

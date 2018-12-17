@@ -1,16 +1,24 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.tab-bar {
+  height: 88rpx;
+  vertical-align: middle;
+  line-height: 88rpx;
+}
+.userinfo-avatar {
+  width: 40rpx;
+  height: 40rpx;
+  padding: 10rpx 122rpx 10rpx 32rpx;
+  float: left;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.service-list {
+   margin-left: 0;
+   font-size: 32rpx;
 }
+.service-name {
+   margin-right: 40rpx;
+}
+
 
 .userinfo-nickname {
   color: #aaa;

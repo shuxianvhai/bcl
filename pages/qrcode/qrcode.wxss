@@ -1,0 +1,28 @@
+/* pages/qrcode/qrcode.wxss */
+
+page {
+  background-color: #fff;
+}
+.qrcode-box {
+  margin: 130rpx auto;
+}
+.logo-item-box {
+  width: 274rpx;
+  height: 112rpx;
+  margin: 0 auto 58rpx;
+}
+.item-image {
+  width: 100%;
+  height: 100%;
+}
+.qr-text {
+  display: block;
+  text-align: center;
+  font-size: 32rpx;
+}
+.qrcode-image-box {
+  margin: 20rpx auto;
+  width: 500rpx;
+  height: 500rpx;
+  border: 1px solid #ccc;
+}

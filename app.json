@@ -1,23 +1,20 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/personalCenter/personalCenter",
-    "pages/logs/logs"
+    "pages/personal-center/personal-center",
+    "pages/login/login",
+    "pages/account/account",
+    "pages/coupon/coupon",
+    "pages/qrcode/qrcode",
+    
+    "pages/order-list/order-list",
+    "pages/logs/logs",
+    "pages/index/index"
   ],
   "window": {
-    "navigationBarTitleText": "Demo"
-  },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/personalCenter/personalCenter",
-        "text": "个人中心"
-      }
-    ]
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f2f2f2"
   },
   "networkTimeout": {
     "request": 10000,

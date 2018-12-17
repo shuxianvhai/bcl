@@ -1,0 +1,24 @@
+<!--二维码推广-->
+<view class="qrcode-container">
+      <view class="qrcode-box">
+        <view class="qr-item logo-item-box">
+          <image
+              class="item-image"
+              src="{{logoSrc}}"
+          ></image>
+        </view>
+        <view class="qr-item">
+          <text class="qr-text">邀请司机加入保车连</text>
+          <text class="qr-text">赚取跟多收益</text>
+        </view>
+
+        <view class="qr-item qrcode-image-box">
+          <image
+              class="item-image"
+              src="{{qrCodeSrc}}"
+          ></image>
+        </view>
+
+      </view>
+
+</view>
